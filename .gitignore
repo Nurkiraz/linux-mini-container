@@ -1,0 +1,23 @@
+
+# Debian root filesystems
+rootfs/
+rootfs-rootless/
+
+# Compiled binaries
+seccomp-test
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+.idea/
+
